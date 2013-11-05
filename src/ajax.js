@@ -134,7 +134,7 @@ define(
             var defaults = {
                 method: 'POST',
                 data: {},
-                cache: ajax.config.cache
+                cache: true
             };
             var util = require('./util');
             options = util.mix(defaults, options);
